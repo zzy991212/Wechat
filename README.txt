@@ -1,13 +1,13 @@
-һ������ĿΪ����΢�ţ�ѹ�����а���:
+一、本项目为简易微信，仓库中包含:
 
-1.database�ļ��У������洢�û���Ϣ��
-2.img�ļ��У��洢�˵�½����ġ�΢�š�ͼ�ꣻ
-3.tmpfiles�ļ��У��洢����ʱ��ŵ��û����͵�ͼƬ���ļ���
-4.SendFile.py�ļ���ʵ�����ļ���ȡ���͹��ܣ�
-5.SQLPart.py�ļ���ʵ���������ݿ��йصĹ��ܣ�
-6.WechatClient.py�ļ���Ϊ����΢�ſͻ��˳���
-7.WechatServer.py�ļ���Ϊ����΢�ŷ���������
+1.database文件夹，用来存储用户信息；
+2.img文件夹，存储了登陆界面的“微信”图标；
+3.tmpfiles文件夹，存储了临时存放的用户发送的图片和文件；
+4.SendFile.py文件，实现了文件读取发送功能；
+5.SQLPart.py文件，实现了与数据库有关的功能；
+6.WechatClient.py文件，为简易微信客户端程序；
+7.WechatServer.py文件，为简易微信服务器程序。
 
-����ע������
-1.databaseԭ��UserInform.xls����¼�˺š����롢����״̬����TJU.xls��NKU.xls��
-2.�ں����б������������������ܳ��֡��Է����Ǻ��ѡ�����ʾ������Ϊˢ�º����б���˲����ܳ��ָ���ʾ�����Լ��ɡ�
+二、注意事项
+1.database原有UserInform.xls（记录账号、密码、在线状态）、TJU.xls、NKU.xls。
+2.在好友列表界面点击与好友聊天可能出现“对方不是好友”的提示，是因为刷新好友列表，瞬间可能出现该提示，重试即可。
